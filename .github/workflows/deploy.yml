@@ -1,0 +1,15 @@
+name: CI - Deploy
+
+on:
+    workflow_dispatch:
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Print deploy info
+              run: |
+                  echo "This is a placeholder deploy workflow. Add real deployment steps here."

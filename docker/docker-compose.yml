@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    ports:
+      - "8000:8000"
+  training:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.training
+    profiles: ["training"]

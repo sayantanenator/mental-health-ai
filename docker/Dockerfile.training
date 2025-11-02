@@ -1,0 +1,8 @@
+# Training Dockerfile
+FROM python:3.11-slim
+WORKDIR /app
+COPY models /app/models
+COPY src /app/src
+COPY config /app/config
+RUN pip install --no-cache-dir pyyaml
+CMD ["python", "models/training/train.py", "--config", "config/development.yaml"]
