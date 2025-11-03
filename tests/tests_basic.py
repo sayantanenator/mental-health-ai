@@ -1,7 +1,7 @@
 # tests/test_basic.py
 import pytest
 import torch
-from src.model.architecture import MultiModalMentalHealthModel
+from src.models.architecture import MultiModalMentalHealthModel
 from src.utils.config import Config
 
 
@@ -36,7 +36,7 @@ def test_model_forward_pass():
 
 def test_text_processor():
     """Test text preprocessing"""
-    from src.data_processing.text_processor import TextProcessor
+    from src.data.text_processor import TextProcessor
 
     processor = TextProcessor()
     text = "Hello, world! This is a test."

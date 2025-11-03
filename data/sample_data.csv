@@ -1,0 +1,6 @@
+text,audio_path,label
+"I've been feeling really good lately, enjoying my work and relationships.",data/sample_audio/positive_1.wav,0
+"Sometimes I feel a bit down, but I can manage with some rest and self-care.",data/sample_audio/neutral_1.wav,1
+I've been having constant negative thoughts and it's hard to get through the day.,data/sample_audio/negative_1.wav,2
+I feel optimistic about the future and my current projects.,data/sample_audio/positive_2.wav,0
+Lately I've been struggling with sleep and motivation for daily activities.,data/sample_audio/negative_2.wav,2

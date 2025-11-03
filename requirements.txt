@@ -14,3 +14,31 @@ aiofiles>=23.0.0
 python-dotenv>=1.0.0
 mlflow>=2.7.0
 wandb>=0.15.0
+# Core ML
+torch>=2.0.0
+transformers>=4.30.0
+torchaudio>=2.0.0
+librosa>=0.10.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# API & Web
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+aiofiles>=23.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+tqdm>=4.65.0
+mlflow>=2.7.0
+wandb>=0.15.0
+
+# Development
+pytest>=7.3.0
+black>=23.0.0
+flake8>=6.0.0
+pre-commit>=3.3.0
